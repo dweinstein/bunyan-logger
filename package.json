@@ -1,7 +1,7 @@
 {
   "name": "@insitusec/koa-bunyan-logger",
   "version": "0.0.1",
-  "description": "Koa middleware for logging requests using bunyan",
+  "description": "Koa middleware for logging requests using bunyan (peerDependency on 1.x)",
   "main": "index.js",
   "engines": {
     "node": ">= 0.11.4"
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/koajs/bunyan-logger.git"
+    "url": "https://github.com/dweinstein/bunyan-logger.git"
   },
   "bugs": {
-    "url": "https://github.com/koajs/bunyan-logger/issues"
+    "url": "https://github.com/dweinstein/bunyan-logger/issues"
   },
-  "homepage": "https://github.com/koajs/bunyan-logger",
+  "homepage": "https://github.com/dweinstein/bunyan-logger",
   "author": "Pebble Technology <webteam@getpebble.com>",
   "license": "MIT",
   "dependencies": {
