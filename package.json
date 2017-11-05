@@ -1,6 +1,6 @@
 {
-  "name": "koa-bunyan-logger",
-  "version": "1.3.0",
+  "name": "@insitusec/koa-bunyan-logger",
+  "version": "0.0.1",
   "description": "Koa middleware for logging requests using bunyan",
   "main": "index.js",
   "engines": {
@@ -27,9 +27,11 @@
   "author": "Pebble Technology <webteam@getpebble.com>",
   "license": "MIT",
   "dependencies": {
-    "bunyan": "~1.5.0",
     "on-finished": "~2.1.1",
     "uuid": "^3.0.0"
+  },
+  "peerDependencies": {
+    "bunyan": "1.x"
   },
   "devDependencies": {
     "co-mocha": "~1.1.2",
