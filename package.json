@@ -1,6 +1,6 @@
 {
   "name": "@insitusec/koa-bunyan-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Koa middleware for logging requests using bunyan (peerDependency on 1.x)",
   "main": "index.js",
   "engines": {
